@@ -913,7 +913,7 @@ html,body{
 
 /*Responsive part */
 /* Styles for mobile phones */
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     .header, .footer {
         text-align: left;
         padding: 0.5rem;
@@ -1185,6 +1185,26 @@ html,body{
     top: 20vh;
     width: 100%;
     border-radius: 5vw;
+}
+#page5 #top .box .text{
+    margin-top: 20vw;
+    white-space: wrap;
+}
+#page5 #top .box .text h1{
+    font-size: 10vw;
+    width: 100%;
+}
+#page5 #top .box .text p{
+    font-size: 5vw;
+    width: 100%;
+    margin-left: 1vw;
+    margin-top: 8vw;
+}
+#page5 #top .box .text .btn{
+    padding: 1.5vw 5vw;
+    border-radius: 6vw;
+    margin-top: 6vw;
+    margin-left: 1vw;
 }
 #page5 #btm{
     height: 50%;
